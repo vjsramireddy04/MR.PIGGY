@@ -1,0 +1,97 @@
+body{
+    background-color: lavender;
+}
+.pigg-face{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(3, 183, 3);
+    border-radius: 50%;
+    position: relative;
+    border: 10px solid black;
+    z-index: 2;
+    
+}
+.left{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:white;
+    top: 80px;
+    left: 60px;
+    border: 5px solid black;
+}
+.eye1{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:black;
+    top: 15px;
+    left: 15px;
+}
+.right{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color:white;
+    top: 80px;
+    left: 180px;
+    border: 5px solid black;
+}
+.eye2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:black;
+    top: 15px;
+    left: 15px;
+}
+.mouth{
+    position: absolute;
+    height: 60px;
+    width: 150px;
+    background-color:rgb(98, 181, 79);
+    border-radius: 50px;
+    top: 180px;
+    left: 80px;
+    border:5px solid black ;
+}
+.nose1{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:black;
+    top: 20px;
+    left: 20px;
+}
+.nose2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:black;
+    top: 20px;
+    left: 90px;
+}
+.ear1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid black;
+    background-color:rgb(132, 218, 114);
+    left: px;
+}
+.ear2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:10px solid black ;
+    background-color:rgb(132, 218, 114);
+    left: 210px;
+}
